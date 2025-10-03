@@ -1,0 +1,19 @@
+[project]
+name = "anigma-f1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.10.1",
+    "bitsandbytes>=0.47.0",
+    "chromadb>=1.1.0",
+    "fastapi>=0.117.1",
+    "huggingface-hub[cli]>=0.35.1",
+    "langgraph>=0.6.7",
+    "python-dotenv>=1.1.1",
+    "requests>=2.32.5",
+    "sentence-transformers>=5.1.1",
+    "transformers>=4.56.2",
+    "uvicorn[standard]>=0.37.0",
+]
